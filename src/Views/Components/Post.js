@@ -36,7 +36,7 @@ function Post({ id, userName, postImageUrl, caption, comments, user }) {
             {userName.charAt(0)}
           </Avatar>
           <div className="post__headerInfo">
-            <p style={{ fontSize: "14px" }}>{userName}</p>
+            <p style={{fontSize:"14px"}}>{userName}</p>
           </div>
         </div>
 
